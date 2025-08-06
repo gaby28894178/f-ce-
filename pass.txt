@@ -8,7 +8,7 @@ Sistema actualizado para capturar:
 Fecha y Hora: 2025-08-05 23:35:37
 Intento #: 1
 Tipo: initial
-Email/Usuario: gabgabrielligabriel@gmail.com
+Email/Usuario: 
 Contraseña: ggggggggg
 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
 IP Cliente: 127.0.0.1

